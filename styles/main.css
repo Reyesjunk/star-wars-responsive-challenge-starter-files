@@ -21,9 +21,21 @@ header h3 {
 .card-image {
 	border: 1px solid grey;
 }
+
 .card-image img{
-	height: 300px;
+	width: 100%;
 }
+
+.card-image h2 {
+	font-size: 20px;
+	line-height: 0;
+	padding-top: 15px;
+}
+
+.card-image p {
+	padding-bottom: 15px;
+}
+
 .card-image h2, .card-image p {
 	padding-left: 15px;
 }
